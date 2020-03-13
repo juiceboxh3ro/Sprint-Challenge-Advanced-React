@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Player = ({player}) => {
+const Player = ({id, player}) => {
   return (
-    <div id="player-card">
+    <div className={id} id="player-card">
       <h3>{player.name}</h3>
       <p>{player.country}</p>
       <p>{player.searches}</p>

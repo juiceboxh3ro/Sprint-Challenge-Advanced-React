@@ -43,8 +43,15 @@ code {
 
 #player-card {
   text-align: center;
-  border: 1px solid black;
-  border-radius: 3px;
+  border-radius: 5px;
+}
+
+.local {
+  border: rebeccapurple 2px solid;
+}
+
+.server {
+  border: black 2px dashed;
 }
 
 .dark-mode {
